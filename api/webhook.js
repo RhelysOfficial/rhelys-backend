@@ -22,4 +22,4 @@ export default async (req, res) => {
     console.error('Webhook error:', error.message);
     res.status(500).json({ status: 'error', message: error.message });
   }
-}
+};
